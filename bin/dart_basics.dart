@@ -16,7 +16,7 @@ void printHomework() {
 
   var divider = '------------------';
 
-  print('Домашняя работа №2');
+  print('Домашняя работа №2.6');
 
   print(divider);
   print('Задание №1');
