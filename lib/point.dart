@@ -8,9 +8,9 @@ class Point {
   final double z;
 
   double distanceTo(Point another) {
-    var xDifference = (another.x - x) * 2;
-    var yDifference = (another.y - y) * 2;
-    var zDifference = (another.z - z) * 2;
+    var xDifference = pow(another.x - x, 2);
+    var yDifference = pow(another.y - y, 2);
+    var zDifference = pow(another.z - z, 2);
 
     return sqrt(xDifference + yDifference + zDifference);
   }
